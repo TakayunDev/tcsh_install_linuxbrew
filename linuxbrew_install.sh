@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #download and run ruby linstaling linuxbrew script.
-#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
 #git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
 
 echo "setenv PATH \"$HOME/.linuxbrew/bin:$PATH\"" >> $HOME/.cshrc
